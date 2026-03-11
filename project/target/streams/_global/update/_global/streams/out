@@ -1,3 +1,7 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/"), "coen-6731-distributed_software_systems--build")...
-[debug] Done updating ProjectRef(uri("file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/"), "coen-6731-distributed_software_systems--build")
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/"), "coen-6731-distributed_software_systems--build")...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating coen-6731-distributed_software_systems-build[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved coen-6731-distributed_software_systems-build dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of coen-6731-distributed_software_systems-build[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of coen-6731-distributed_software_systems-build[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/"), "coen-6731-distributed_software_systems--build")[0m

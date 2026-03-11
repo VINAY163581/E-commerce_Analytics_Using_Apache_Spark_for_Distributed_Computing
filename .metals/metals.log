@@ -3097,3 +3097,219 @@ java.nio.file.FileSystemNotFoundException: Provider "class" not installed
 2026.02.03 12:46:49 INFO  time: compiled coen-6731-distributed_software_systems- in 2.04s
 Feb 03, 2026 12:46:55 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 1:29:35 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 562
+2026.02.03 13:30:04 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.03 13:30:04 INFO  time: compiled coen-6731-distributed_software_systems- in 0.87s
+2026.02.03 13:57:37 INFO  Shutting down server
+2026.02.03 13:57:37 INFO  Memory monitor stopped
+2026.02.03 13:57:37 INFO  shutting down Metals
+2026.02.03 13:57:37 INFO  Shut down connection with build server.
+2026.02.03 13:57:37 INFO  Shut down connection with build server.
+2026.02.03 13:57:37 INFO  Exiting server
+2026.02.03 19:03:46 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.02.03 19:03:46 INFO  Memory monitor started
+2026.02.03 19:03:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 19:03:46 INFO  Attempting to connect to the build server...
+2026.02.03 19:03:46 INFO  No running Bloop server found, starting one.
+2026.02.03 19:03:47 INFO  Starting compilation server
+2026.02.03 19:03:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 19:03:48 INFO  Attempting to connect to the build server...
+2026.02.03 19:03:48 INFO  Found a Bloop server running
+2026.02.03 19:03:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.03 19:03:48 INFO  time: Connected to build server in 1.83s
+2026.02.03 19:03:48 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.03 19:03:48 INFO  time: Imported build in 0.15s
+2026.02.03 19:03:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 19:03:52 INFO  time: indexed workspace in 4.15s
+Feb 03, 2026 7:03:58 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 03, 2026 7:09:49 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.03 20:00:50 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.03 20:00:51 INFO  time: compiled coen-6731-distributed_software_systems- in 1.75s
+2026.02.03 20:03:03 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:03 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 20:03:03 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:03 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 20:03:04 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:13 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 20:03:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:14 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:03:16 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+Feb 03, 2026 8:03:44 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.03 20:07:44 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:07:44 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 20:07:44 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 20:07:44 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:44:43 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:39 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:39 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:39 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:39 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 21:45:39 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:39 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:54 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:58 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:59 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:59 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:58 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:59 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:45:59 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:46:00 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 21:46:00 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 21:46:00 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 22:03:11 INFO  compiling coen-6731-distributed_software_systems- (1 scala source)
+2026.02.03 22:03:11 INFO  time: compiled coen-6731-distributed_software_systems- in 0.73s
+2026.02.03 22:05:07 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 22:05:07 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt
+2026.02.03 22:05:07 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.03 22:05:07 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/plugins.sbt. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.04 00:53:15 INFO  Shutting down server
+2026.02.04 00:53:15 INFO  Memory monitor stopped
+2026.02.04 00:53:15 INFO  shutting down Metals
+2026.02.04 00:53:15 INFO  Shut down connection with build server.
+2026.02.04 00:53:15 INFO  Shut down connection with build server.
+2026.02.04 00:53:15 INFO  Exiting server
+2026.02.04 19:01:58 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.02.04 19:01:58 INFO  Memory monitor started
+Feb 04, 2026 7:01:59 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.04 19:02:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.04 19:02:01 INFO  Attempting to connect to the build server...
+2026.02.04 19:02:01 INFO  No running Bloop server found, starting one.
+2026.02.04 19:02:02 INFO  Starting compilation server
+2026.02.04 19:02:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.04 19:02:03 INFO  Attempting to connect to the build server...
+2026.02.04 19:02:03 INFO  Found a Bloop server running
+2026.02.04 19:02:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.04 19:02:02 INFO  time: Connected to build server in 1.93s
+2026.02.04 19:02:03 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.04 19:02:03 INFO  time: Imported build in 0.16s
+2026.02.04 19:02:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.04 19:02:07 INFO  time: indexed workspace in 3.92s
+2026.02.04 19:06:21 INFO  Shutting down server
+2026.02.04 19:06:21 INFO  Memory monitor stopped
+2026.02.04 19:06:21 INFO  shutting down Metals
+2026.02.04 19:06:21 INFO  Shut down connection with build server.
+2026.02.04 19:06:21 INFO  Shut down connection with build server.
+2026.02.04 19:06:21 INFO  Exiting server
+2026.02.04 20:33:33 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)' for client Visual Studio Code 1.108.2.
+2026.02.04 20:33:33 INFO  Memory monitor started
+2026.02.04 20:33:33 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.04 20:33:33 INFO  Attempting to connect to the build server...
+2026.02.04 20:33:33 INFO  Found a Bloop server running
+2026.02.04 20:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.04 20:33:34 INFO  Attempting to connect to the build server...
+2026.02.04 20:33:34 INFO  Found a Bloop server running
+2026.02.04 20:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.04 20:33:34 INFO  time: Connected to build server in 0.29s
+2026.02.04 20:33:34 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.04 20:33:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.04 20:33:39 INFO  time: indexed workspace in 5.39s
+Feb 04, 2026 8:42:30 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.02.04 20:42:31 INFO  time: code lens generation in 1.15s
+2026.02.05 00:36:47 INFO  Shutting down server
+2026.02.05 00:36:47 INFO  Memory monitor stopped
+2026.02.05 00:36:47 INFO  shutting down Metals
+2026.02.05 00:36:47 INFO  Shut down connection with build server.
+2026.02.05 00:36:47 INFO  Shut down connection with build server.
+2026.02.05 00:36:47 INFO  Exiting server
+2026.02.16 18:13:57 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.109.3.
+2026.02.16 18:13:57 INFO  Memory monitor started
+2026.02.16 18:13:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.16 18:13:58 INFO  Attempting to connect to the build server...
+2026.02.16 18:13:58 INFO  No running Bloop server found, starting one.
+2026.02.16 18:13:58 INFO  Starting compilation server
+2026.02.16 18:13:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 18:13:59 INFO  Attempting to connect to the build server...
+2026.02.16 18:13:59 INFO  Found a Bloop server running
+2026.02.16 18:14:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 18:13:59 INFO  time: Connected to build server in 1.68s
+2026.02.16 18:14:00 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.16 18:14:00 INFO  time: Imported build in 0.14s
+Feb 16, 2026 6:14:02 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.16 18:14:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+Feb 16, 2026 6:14:03 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.16 18:14:04 INFO  time: indexed workspace in 3.89s
+2026.02.16 19:39:54 INFO  Shutting down server
+2026.02.16 19:39:54 INFO  Memory monitor stopped
+2026.02.16 19:39:54 INFO  shutting down Metals
+2026.02.16 19:39:54 INFO  Shut down connection with build server.
+2026.02.16 19:39:54 INFO  Shut down connection with build server.
+2026.02.16 19:39:54 INFO  Exiting server
+2026.02.16 20:18:53 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.109.3.
+2026.02.16 20:18:53 INFO  Memory monitor started
+2026.02.16 20:18:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.16 20:18:54 INFO  Attempting to connect to the build server...
+2026.02.16 20:18:54 INFO  Found a Bloop server running
+2026.02.16 20:18:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 20:18:54 INFO  Attempting to connect to the build server...
+2026.02.16 20:18:54 INFO  Found a Bloop server running
+2026.02.16 20:18:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 20:18:54 INFO  time: Connected to build server in 0.28s
+2026.02.16 20:18:54 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.16 20:18:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.16 20:18:58 INFO  time: indexed workspace in 3.83s
+2026.02.16 20:19:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:11 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala
+2026.02.16 20:19:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:11 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/SparkSessionBuilder.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:12 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/SparkSessionBuilder.scala
+2026.02.16 20:19:12 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/SparkSessionBuilder.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:13 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/SparkSessionBuilder.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:13 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/SparkSessionBuilder.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:14 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:15 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.02.16 20:19:35 INFO  Shutting down server
+2026.02.16 20:19:35 INFO  Memory monitor stopped
+2026.02.16 20:19:35 INFO  shutting down Metals
+2026.02.16 20:19:35 INFO  Shut down connection with build server.
+2026.02.16 20:19:35 INFO  Shut down connection with build server.
+2026.02.16 20:19:35 INFO  Exiting server
+2026.02.16 20:20:01 INFO  Started: Metals version 1.6.5 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.109.3.
+2026.02.16 20:20:01 INFO  Memory monitor started
+2026.02.16 20:20:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.16 20:20:01 INFO  Attempting to connect to the build server...
+2026.02.16 20:20:01 INFO  Found a Bloop server running
+2026.02.16 20:20:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 20:20:01 INFO  Attempting to connect to the build server...
+2026.02.16 20:20:01 INFO  Found a Bloop server running
+2026.02.16 20:20:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.02.16 20:20:01 INFO  time: Connected to build server in 0.34s
+2026.02.16 20:20:01 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.16 20:20:04 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.16 20:20:05 INFO  time: indexed workspace in 3.23s
+2026.02.16 20:21:30 INFO  Shutting down server
+2026.02.16 20:21:30 INFO  Memory monitor stopped
+2026.02.16 20:21:30 INFO  shutting down Metals
+2026.02.16 20:21:31 INFO  Shut down connection with build server.
+2026.02.16 20:21:31 INFO  Shut down connection with build server.
+2026.02.16 20:21:30 INFO  Exiting server
+2026.03.11 16:59:08 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.111.0.
+2026.03.11 16:59:08 INFO  Memory monitor started
+2026.03.11 16:59:08 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.11 16:59:08 INFO  Attempting to connect to the build server...
+2026.03.11 16:59:08 INFO  No running Bloop server found, starting one.
+2026.03.11 16:59:11 INFO  Starting compilation server
+2026.03.11 16:59:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.11 16:59:14 INFO  Attempting to connect to the build server...
+2026.03.11 16:59:14 INFO  Found a Bloop server running
+2026.03.11 16:59:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.11 16:59:16 INFO  time: Connected to build server in 7.61s
+2026.03.11 16:59:16 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.11 16:59:16 INFO  time: Imported build in 0.16s
+2026.03.11 16:59:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.11 16:59:23 INFO  time: indexed workspace in 6.99s

@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[coen-6731-distributed_software_systems--build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[coen-6731-distributed_software_systems--build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'coen-6731-distributed_software_systems--build' to '/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/.bloop/coen-6731-distributed_software_systems--build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/coen-6731-distributed_software_systems--build.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m[e-commerce_analytics_using_apache_spark_for_distributed_computing-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[e-commerce_analytics_using_apache_spark_for_distributed_computing-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'e-commerce_analytics_using_apache_spark_for_distributed_computing-build' to '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.bloop/e-commerce_analytics_using_apache_spark_for_distributed_computing-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/e-commerce_analytics_using_apache_spark_for_distributed_computing-build.json[0m

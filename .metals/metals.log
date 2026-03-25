@@ -3313,3 +3313,174 @@ INFO: Unsupported notification method: $/setTrace
 2026.03.11 16:59:16 INFO  time: Imported build in 0.16s
 2026.03.11 16:59:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.03.11 16:59:23 INFO  time: indexed workspace in 6.99s
+2026.03.11 17:59:29 INFO  Shutting down server
+2026.03.11 17:59:29 INFO  Memory monitor stopped
+2026.03.11 17:59:29 INFO  shutting down Metals
+2026.03.11 17:59:29 INFO  Shut down connection with build server.
+2026.03.11 17:59:29 INFO  Shut down connection with build server.
+2026.03.11 17:59:29 INFO  Exiting server
+2026.03.12 16:48:20 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.111.0.
+2026.03.12 16:48:20 INFO  Memory monitor started
+Mar 12, 2026 4:48:20 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.03.12 16:48:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.12 16:48:21 INFO  Attempting to connect to the build server...
+2026.03.12 16:48:21 INFO  No running Bloop server found, starting one.
+2026.03.12 16:48:22 INFO  Starting compilation server
+2026.03.12 16:48:22 INFO  Shutting down server
+2026.03.12 16:48:22 INFO  Memory monitor stopped
+2026.03.12 16:48:22 INFO  shutting down Metals
+2026.03.12 16:48:22 INFO  Exiting server
+2026.03.24 19:23:45 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.112.0.
+2026.03.24 19:23:45 INFO  Memory monitor started
+2026.03.24 19:23:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.24 19:23:46 INFO  Attempting to connect to the build server...
+2026.03.24 19:23:46 INFO  No running Bloop server found, starting one.
+2026.03.24 19:23:46 INFO  Starting compilation server
+2026.03.24 19:23:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.24 19:23:48 INFO  Attempting to connect to the build server...
+2026.03.24 19:23:48 INFO  Found a Bloop server running
+2026.03.24 19:23:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.24 19:23:48 INFO  time: Connected to build server in 1.66s
+2026.03.24 19:23:48 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.24 19:23:48 INFO  time: Imported build in 0.17s
+2026.03.24 19:23:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.24 19:23:52 INFO  time: indexed workspace in 4.07s
+2026.03.24 19:25:27 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:25:27 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:25:27 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala
+2026.03.24 19:25:27 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+Mar 24, 2026 7:25:27 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.03.24 19:25:27 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:25:30 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:25:30 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:25:30 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:28:28 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.03.24 19:31:35 INFO  Shutting down server
+2026.03.24 19:31:35 INFO  Memory monitor stopped
+2026.03.24 19:31:35 INFO  shutting down Metals
+2026.03.24 19:31:35 INFO  Shut down connection with build server.
+2026.03.24 19:31:35 INFO  Shut down connection with build server.
+2026.03.24 19:31:35 INFO  Exiting server
+2026.03.24 20:34:17 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.112.0.
+2026.03.24 20:34:17 INFO  Memory monitor started
+2026.03.24 20:34:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.24 20:34:17 INFO  Attempting to connect to the build server...
+2026.03.24 20:34:17 INFO  Found a Bloop server running
+2026.03.24 20:34:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.24 20:34:18 INFO  Attempting to connect to the build server...
+2026.03.24 20:34:18 INFO  Found a Bloop server running
+2026.03.24 20:34:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.03.24 20:34:18 INFO  time: Connected to build server in 0.32s
+2026.03.24 20:34:18 INFO  Connected to Build server: Bloop v2.0.19
+2026.03.24 20:34:18 INFO  time: Imported build in 0.12s
+2026.03.24 20:34:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.24 20:34:22 INFO  time: indexed workspace in 3.92s
+2026.03.24 20:41:14 INFO  Created report: Optional.empty
+2026.03.24 20:41:14 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:41:14 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:41:14 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+Mar 24, 2026 8:41:14 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2026.03.24 20:41:16 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:41:16 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:41:18 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:41:18 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:41:33 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:41:33 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:42:07 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:07 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:42:07 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:08 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:42:09 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:09 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2026.03.24 20:42:09 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:09 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:09 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:10 INFO  No project associated with Uri(file:<HOME>/Documents/Projects/COEN-6731(Distributed_Software_Systems... (full report at: "/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/.reports/bloop/2026-03-24/r_No project associate..._20-41-14-514.md")
+2026.03.24 20:42:10 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri(file:/Users/vinaykumarreddythangella/Documents/Projects/COEN-6731(Distributed_Software_Systems)/project/?id=coen-6731-distributed_software_systems--build)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+

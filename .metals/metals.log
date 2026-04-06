@@ -3484,3 +3484,56 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: No project associated with Uri
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1575)
 
+2026.03.24 21:31:02 INFO  Shutting down server
+2026.03.24 21:31:02 INFO  Memory monitor stopped
+2026.03.24 21:31:02 INFO  shutting down Metals
+2026.03.24 21:31:02 INFO  Shut down connection with build server.
+2026.03.24 21:31:02 INFO  Shut down connection with build server.
+2026.03.24 21:31:02 INFO  Exiting server
+2026.04.02 18:34:59 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.112.0.
+2026.04.02 18:34:59 INFO  Memory monitor started
+2026.04.02 18:35:00 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.02 18:35:00 INFO  Attempting to connect to the build server...
+2026.04.02 18:35:00 INFO  No running Bloop server found, starting one.
+2026.04.02 18:35:01 INFO  Starting compilation server
+2026.04.02 18:35:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.04.02 18:35:02 INFO  Attempting to connect to the build server...
+2026.04.02 18:35:02 INFO  Found a Bloop server running
+2026.04.02 18:35:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.04.02 18:35:02 INFO  time: Connected to build server in 1.91s
+2026.04.02 18:35:02 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.02 18:35:02 INFO  time: Imported build in 0.17s
+2026.04.02 18:35:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.02 18:35:06 INFO  time: indexed workspace in 4.01s
+2026.04.02 18:40:25 INFO  Shutting down server
+2026.04.02 18:40:25 INFO  Memory monitor stopped
+2026.04.02 18:40:25 INFO  shutting down Metals
+2026.04.02 18:40:26 INFO  Shut down connection with build server.
+2026.04.02 18:40:26 INFO  Shut down connection with build server.
+2026.04.02 18:40:25 INFO  Exiting server
+2026.04.06 15:00:04 INFO  Started: Metals version 1.6.6 in folders '/Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing' for client Visual Studio Code 1.114.0.
+2026.04.06 15:00:04 INFO  Memory monitor started
+2026.04.06 15:00:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.06 15:00:05 INFO  Attempting to connect to the build server...
+2026.04.06 15:00:05 INFO  No running Bloop server found, starting one.
+2026.04.06 15:00:06 INFO  Starting compilation server
+2026.04.06 15:00:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.04.06 15:00:07 INFO  Attempting to connect to the build server...
+2026.04.06 15:00:07 INFO  Found a Bloop server running
+2026.04.06 15:00:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/project/.metals/bsp.trace.json or /Users/vinaykumarreddythangella/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.04.06 15:00:07 INFO  time: Connected to build server in 1.77s
+2026.04.06 15:00:07 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.06 15:00:07 INFO  time: Imported build in 0.16s
+2026.04.06 15:00:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.06 15:00:12 INFO  time: indexed workspace in 4.06s
+Apr 06, 2026 3:02:53 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.06 16:17:42 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.04.06 16:17:42 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/util/Metrics.scala
+2026.04.06 16:17:42 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala
+2026.04.06 16:17:43 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/util/Metrics.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.04.06 16:18:26 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.04.06 16:18:26 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala. Using presentation compiler with project's scala-library version: 2.12.21
+2026.04.06 16:18:26 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala
+2026.04.06 16:18:31 WARN  no build target for: /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/MainApp.scala
+2026.04.06 16:20:42 INFO  no build target found for /Users/vinaykumarreddythangella/Documents/Projects/E-commerce_Analytics_Using_Apache_Spark_for_Distributed_Computing/src/main/scala/com/analytics/util/Metrics.scala. Using presentation compiler with project's scala-library version: 2.12.21

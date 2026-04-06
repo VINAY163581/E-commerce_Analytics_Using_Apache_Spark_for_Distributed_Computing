@@ -20,6 +20,7 @@ jobs:
       BQ_DATASET: ecommerce_analytics
       BQ_DATASET_LOCATION: northamerica-northeast1
       BQ_TABLE_PREFIX: ecommerce
+      BQ_AUTO_CREATE_DATASET: "false"
 
     steps:
       - name: Checkout
@@ -60,10 +61,18 @@ jobs:
         run: |
           gcloud storage cp data/*.csv gs://$DATA_BUCKET/data/
 
-      - name: Ensure BigQuery dataset exists
+      - name: Validate BigQuery dataset access
         run: |
-          if ! bq --project_id=$GCP_PROJECT_ID show --dataset $GCP_PROJECT_ID:$BQ_DATASET >/dev/null 2>&1; then
+          if bq --project_id=$GCP_PROJECT_ID show --dataset $GCP_PROJECT_ID:$BQ_DATASET >/dev/null 2>&1; then
+            echo "BigQuery dataset exists and is accessible: $GCP_PROJECT_ID:$BQ_DATASET"
+          elif [ "$BQ_AUTO_CREATE_DATASET" = "true" ]; then
+            echo "Dataset missing. Attempting auto-create because BQ_AUTO_CREATE_DATASET=true"
             bq --location=$BQ_DATASET_LOCATION --project_id=$GCP_PROJECT_ID mk --dataset $GCP_PROJECT_ID:$BQ_DATASET
+          else
+            echo "BigQuery dataset is missing or inaccessible: $GCP_PROJECT_ID:$BQ_DATASET"
+            echo "Create it once from an account with permission, then re-run the workflow:"
+            echo "bq --location=$BQ_DATASET_LOCATION --project_id=$GCP_PROJECT_ID mk --dataset $GCP_PROJECT_ID:$BQ_DATASET"
+            exit 1
           fi
 
       - name: Submit Spark job to Dataproc

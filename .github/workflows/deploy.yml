@@ -12,6 +12,14 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      GCP_PROJECT_ID: project-34c13448-074a-417a-b64
+      GCP_REGION: northamerica-northeast1
+      DATAPROC_CLUSTER: distributed-system
+      DATA_BUCKET: vinay-ecommerce-dataproc-6731
+      BQ_DATASET: ecommerce_analytics
+      BQ_DATASET_LOCATION: northamerica-northeast1
+      BQ_TABLE_PREFIX: ecommerce
 
     steps:
       - name: Checkout
@@ -37,7 +45,7 @@ jobs:
         uses: sbt/setup-sbt@v1
 
       - name: Set GCP project
-        run: gcloud config set project project-34c13448-074a-417a-b64
+        run: gcloud config set project $GCP_PROJECT_ID
 
       - name: Build fat jar (sbt assembly)
         run: sbt clean assembly
@@ -46,18 +54,52 @@ jobs:
         run: |
           JAR_PATH=$(ls target/scala-*/spark-ecommerce-analytics-assembly-*.jar | head -n 1)
           echo "Uploading jar: $JAR_PATH"
-          gcloud storage cp "$JAR_PATH" gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar
+          gcloud storage cp "$JAR_PATH" gs://$DATA_BUCKET/jars/spark-ecommerce-analytics-assembly-1.0.jar
 
       - name: Upload data to GCS
         run: |
-          gcloud storage cp data/*.csv gs://vinay-ecommerce-dataproc-6731/data/
+          gcloud storage cp data/*.csv gs://$DATA_BUCKET/data/
+
+      - name: Ensure BigQuery dataset exists
+        run: |
+          if ! bq --project_id=$GCP_PROJECT_ID show --dataset $GCP_PROJECT_ID:$BQ_DATASET >/dev/null 2>&1; then
+            bq --location=$BQ_DATASET_LOCATION --project_id=$GCP_PROJECT_ID mk --dataset $GCP_PROJECT_ID:$BQ_DATASET
+          fi
 
       - name: Submit Spark job to Dataproc
         run: |
           gcloud dataproc jobs submit spark \
-            --project=project-34c13448-074a-417a-b64 \
-            --region=northamerica-northeast1 \
-            --cluster=distributed-system \
+            --project=$GCP_PROJECT_ID \
+            --region=$GCP_REGION \
+            --cluster=$DATAPROC_CLUSTER \
             --class=com.analytics.MainApp \
-            --jars=gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar \
-            --properties=spark.yarn.appMasterEnv.DATA_PATH=gs://vinay-ecommerce-dataproc-6731/data,spark.executorEnv.DATA_PATH=gs://vinay-ecommerce-dataproc-6731/data
+            --jars=gs://$DATA_BUCKET/jars/spark-ecommerce-analytics-assembly-1.0.jar,gs://spark-lib/bigquery/spark-3.5-bigquery-0.42.1.jar \
+            --properties=spark.yarn.appMasterEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.executorEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.yarn.appMasterEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.executorEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.yarn.appMasterEnv.BQ_DATASET=$BQ_DATASET,spark.executorEnv.BQ_DATASET=$BQ_DATASET,spark.yarn.appMasterEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.executorEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.yarn.appMasterEnv.TEMP_GCS_BUCKET=$DATA_BUCKET,spark.executorEnv.TEMP_GCS_BUCKET=$DATA_BUCKET
+
+      - name: Create or refresh BigQuery views for charts
+        run: |
+          bq --project_id=$GCP_PROJECT_ID query --use_legacy_sql=false "CREATE OR REPLACE VIEW \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_vw_kpi_trend\` AS
+          SELECT
+            run_timestamp,
+            total_events,
+            total_orders,
+            total_revenue,
+            average_order_value,
+            conversion_rate
+          FROM \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_kpi_snapshot\`
+          ORDER BY run_timestamp"
+
+          bq --project_id=$GCP_PROJECT_ID query --use_legacy_sql=false "CREATE OR REPLACE VIEW \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_vw_kpi_latest\` AS
+          SELECT *
+          FROM \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_kpi_snapshot\`
+          QUALIFY ROW_NUMBER() OVER (ORDER BY run_timestamp DESC) = 1"
+
+          bq --project_id=$GCP_PROJECT_ID query --use_legacy_sql=false "CREATE OR REPLACE VIEW \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_vw_events_by_type\` AS
+          SELECT event_type, count
+          FROM \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_events_by_type\`
+          ORDER BY count DESC"
+
+          bq --project_id=$GCP_PROJECT_ID query --use_legacy_sql=false "CREATE OR REPLACE VIEW \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_vw_top_products\` AS
+          SELECT product_id, product_name, category, price, sold_count
+          FROM \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_top_products\`
+          ORDER BY sold_count DESC"

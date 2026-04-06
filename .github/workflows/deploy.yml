@@ -57,7 +57,7 @@ jobs:
           gcloud dataproc jobs submit spark \
             --project=project-34c13448-074a-417a-b64 \
             --region=northamerica-northeast1 \
-            --cluster=ecommerce-cluster \
+            --cluster=distributed-system \
             --class=com.analytics.MainApp \
             --jars=gs://vinay-ecommerce-dataproc-6731/jars/spark-ecommerce-analytics-assembly-1.0.jar \
             --properties=spark.yarn.appMasterEnv.DATA_PATH=gs://vinay-ecommerce-dataproc-6731/data,spark.executorEnv.DATA_PATH=gs://vinay-ecommerce-dataproc-6731/data

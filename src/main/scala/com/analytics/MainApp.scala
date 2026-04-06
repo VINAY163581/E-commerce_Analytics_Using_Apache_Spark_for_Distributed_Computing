@@ -122,7 +122,7 @@ object MainApp {
     )
 
     println("\n========= WRITING RESULTS TO BIGQUERY =========")
-    writeToBigQuery(kpiSnapshot, bqProject, bqDataset, s"${bqTablePrefix}_kpi_snapshot", tempBucket, "append")
+    writeToBigQuery(kpiSnapshot, bqProject, bqDataset, s"${bqTablePrefix}_kpi_snapshot", tempBucket, "overwrite")
     writeToBigQuery(eventsByType, bqProject, bqDataset, s"${bqTablePrefix}_events_by_type", tempBucket, "overwrite")
     writeToBigQuery(topSellingProducts, bqProject, bqDataset, s"${bqTablePrefix}_top_products", tempBucket, "overwrite")
     writeToBigQuery(funnel, bqProject, bqDataset, s"${bqTablePrefix}_funnel", tempBucket, "overwrite")

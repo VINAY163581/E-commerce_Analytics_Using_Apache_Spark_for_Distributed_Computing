@@ -22,7 +22,7 @@ object MainApp {
       mode: String
   ): Unit = {
     df.write
-      .format("bigquery")
+      .format("com.google.cloud.spark.bigquery.v2.Spark35BigQueryTableProvider")
       .option("table", s"$projectId:$dataset.$table")
       .option("temporaryGcsBucket", temporaryBucket)
       .mode(mode)

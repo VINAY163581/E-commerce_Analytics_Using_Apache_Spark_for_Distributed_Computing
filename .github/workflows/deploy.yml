@@ -82,7 +82,7 @@ jobs:
             --region=$GCP_REGION \
             --cluster=$DATAPROC_CLUSTER \
             --class=com.analytics.MainApp \
-            --jars=gs://$DATA_BUCKET/jars/spark-ecommerce-analytics-assembly-1.0.jar,gs://spark-lib/bigquery/spark-3.5-bigquery-0.42.1.jar \
+            --jars=gs://$DATA_BUCKET/jars/spark-ecommerce-analytics-assembly-1.0.jar \
             --properties=spark.yarn.appMasterEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.executorEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.yarn.appMasterEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.executorEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.yarn.appMasterEnv.BQ_DATASET=$BQ_DATASET,spark.executorEnv.BQ_DATASET=$BQ_DATASET,spark.yarn.appMasterEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.executorEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.yarn.appMasterEnv.TEMP_GCS_BUCKET=$DATA_BUCKET,spark.executorEnv.TEMP_GCS_BUCKET=$DATA_BUCKET
 
       - name: Create or refresh BigQuery views for charts

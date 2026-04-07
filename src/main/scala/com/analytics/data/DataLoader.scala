@@ -8,6 +8,7 @@ object DataLoader {
   private def readCsv(spark: SparkSession, path: String): DataFrame =
     spark.read
       .option("header", "true")
+      .option("sep", "\t")
       .option("inferSchema", "true")
       .option("mode", "DROPMALFORMED")
       .csv(path)

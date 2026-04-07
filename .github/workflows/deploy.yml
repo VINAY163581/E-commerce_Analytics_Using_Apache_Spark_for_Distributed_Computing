@@ -85,6 +85,16 @@ jobs:
             --jars=gs://$DATA_BUCKET/jars/spark-ecommerce-analytics-assembly-1.0.jar \
             --properties=spark.yarn.appMasterEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.executorEnv.DATA_PATH=gs://$DATA_BUCKET/data,spark.yarn.appMasterEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.executorEnv.BQ_PROJECT_ID=$GCP_PROJECT_ID,spark.yarn.appMasterEnv.BQ_DATASET=$BQ_DATASET,spark.executorEnv.BQ_DATASET=$BQ_DATASET,spark.yarn.appMasterEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.executorEnv.BQ_TABLE_PREFIX=$BQ_TABLE_PREFIX,spark.yarn.appMasterEnv.TEMP_GCS_BUCKET=$DATA_BUCKET,spark.executorEnv.TEMP_GCS_BUCKET=$DATA_BUCKET
 
+      - name: Refresh Google Cloud auth before BigQuery views
+        uses: google-github-actions/auth@v2
+        with:
+          token_format: "access_token"
+          workload_identity_provider: "projects/150195794927/locations/global/workloadIdentityPools/github-pool/providers/github-provider"
+          service_account: "github-ci@project-34c13448-074a-417a-b64.iam.gserviceaccount.com"
+
+      - name: Refresh gcloud before BigQuery views
+        uses: google-github-actions/setup-gcloud@v2
+
       - name: Create or refresh BigQuery views for charts
         run: |
           bq --project_id=$GCP_PROJECT_ID query --use_legacy_sql=false "CREATE OR REPLACE VIEW \`$GCP_PROJECT_ID.$BQ_DATASET.${BQ_TABLE_PREFIX}_vw_kpi_trend\` AS

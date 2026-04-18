@@ -307,22 +307,11 @@ Fix:
 - Ensure connector is added during job submission.
 - Verify environment variables and access permissions.
 
----
 
-## 13. Academic Context
 
-This project is submitted as part of coursework on **Distributed Software Systems / Distributed Computing**, demonstrating:
+## 14. Quick Start
 
-- distributed data ingestion,
-- parallel transformations with Spark SQL/DataFrame APIs,
-- scalable analytics pipeline design,
-- cloud-compatible execution and analytical output generation.
-
----
-
-## 14. Quick Start (for Professor)
-
-If you want to test quickly after cloning:
+To test quickly after cloning:
 
 ```bash
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
